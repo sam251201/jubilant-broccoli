@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    color: #555;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header{
+    background-image: url('css/image/food-bowl-dish-plate-aesthetic-6mb6ly4343wl9f1d.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin-top: 0px;
+    color:#555;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;    
+}
+.hero-text-box {
+    max-width: 600px;
+    font-size: 24px;
+.hero-text-box a {
+    color: #ff5722;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.hero-text-box a:hover {
+    text-decoration: underline;
+}
